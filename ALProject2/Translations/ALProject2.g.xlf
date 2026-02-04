@@ -1,0 +1,94 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<xliff version="1.2" xmlns="urn:oasis:names:tc:xliff:document:1.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="urn:oasis:names:tc:xliff:document:1.2 xliff-core-1.2-transitional.xsd">
+  <file datatype="xml" source-language="en-US" target-language="en-US" original="ALProject2">
+    <body>
+      <group id="body">
+        <trans-unit id="Table 45370033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sim Card</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Scheda Telefonica"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - NamedType 524059161" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Operation complited</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Operazione completata</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - NamedType DelateMSsg</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Method 3152277940 - NamedType 1190711103" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The SIM card record cannot be delated</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Il record della scheda SIM non può essere eliminato"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Method OnDelete - NamedType DelateError</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Method 3152277940 - NamedType 973351683" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Are yuou sure to delate this SIM card record?</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Cancellazione annullata</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Method OnDelete - NamedType ConfirmMessage</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Method 1262666395 - NamedType 4225090550" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Due Date cannot be  before the Activation Date.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="La Data di scadenza non può essere precedente alla Data di Attivazione"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Method OnModify - NamedType ErrorMeassage</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Field 3538494697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activation Cost</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Costo Attivazione"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Activation Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Field 3420575740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activation Date</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Data Attivazione"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Activation Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Nome Cliente"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Field 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Numero Cliente"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Field 4085727052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Data Scadenza"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Field 1127401914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID Sim Card</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Identificativo Sim Card"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field ID Sim Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Field 4192966370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>is Active</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Attiva"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field isActive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Field 4173393313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sim Type</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Tipo Scheda"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Sim Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="TableExtension 561312059 - Field 2873579140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
+          <source>Main SIM Card</source>
+          <note from="Developer" annotates="general" priority="2">ITA = "Scheda SIM Principale"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Exstention - Field Main SIM Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4173393313 - EnumValue 1890244606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Micro</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Micro"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Sim Type - EnumValue Micro - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4173393313 - EnumValue 691290506 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Nano</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Nano"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Sim Type - EnumValue Nano - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 4173393313 - EnumValue 221910773 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Normal</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Normale"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Sim Type - EnumValue Normal - Property Caption</note>
+        </trans-unit>
+      </group>
+    </body>
+  </file>
+</xliff>

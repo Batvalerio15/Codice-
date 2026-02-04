@@ -41,10 +41,11 @@ table 50100 "Scheda SIM"
             begin
                 if Rec."Customer No." <> '' then
                     CustomerRec.get(Rec."Customer No.");
+                Rec."Customer Name" := CustomerRec.Name;
             end;
         }
 
-        field(6; "Customer Nmae"; Text[100])
+        field(6; "Customer Name"; Text[100])
         {
             DataClassification = CustomerContent;
             Caption = 'Customer Name', comment = 'ITA="Nome Cliente"';
@@ -60,7 +61,7 @@ table 50100 "Scheda SIM"
         field(8; "Sim Type"; Enum "Sim Type")
         {
             DataClassification = CustomerContent;
-            Caption = 'Sim Type', Comment = 'Ita="Tipo Scheda"';
+            Caption = 'Sim Type', Comment = 'ITA="Tipo Scheda"';
         }
     }
     keys
