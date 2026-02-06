@@ -50,12 +50,22 @@ table 50100 "Scheda SIM"
             DataClassification = CustomerContent;
             Caption = 'Customer Name', comment = 'ITA="Nome Cliente"';
             TableRelation = Customer.Name where("No." = field("Customer No."));
+            Editable = false;
         }
 
         field(7; "Due Date"; Date)
         {
             DataClassification = CustomerContent;
             Caption = 'Due Date', comment = 'ITA="Data Scadenza"';
+            trigger OnValidate()
+            var
+                ErrorMeassage: Label 'The Due Date cannot be  before the Activation Date.', comment = 'ITA="La Data di scadenza non può essere precedente alla Data di Attivazione"';
+            begin
+                if Rec."Due Date" < Rec."Activation Date" then begin
+                    Error(ErrorMeassage);
+                end;
+            end;
+
         }
 
         field(8; "Sim Type"; Enum "Sim Type")
@@ -63,6 +73,39 @@ table 50100 "Scheda SIM"
             DataClassification = CustomerContent;
             Caption = 'Sim Type', Comment = 'ITA="Tipo Scheda"';
         }
+
+
+        field(9; "Telefon Number"; BigInteger)
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Telefon Number', comment = 'ITA="Numero di telefono"';
+
+        }
+
+        field(10; "Company ID"; Integer)
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Company ID', comment = 'ITA="ID Operatore"';
+            TableRelation = "Phone Company"."Entry Number";
+            trigger OnValidate()
+            var
+                PhoneCompanyRec: Record "Phone Company";
+            begin
+                if Rec."Company ID" <> 0 then begin
+                    PhoneCompanyRec.get(Rec."Company ID");
+                    Rec."Company Name" := PhoneCompanyRec.Name;
+
+                end;
+            end;
+        }
+
+        field(11; "Company Name"; Text[50])
+        {
+            DataClassification = CustomerContent;
+            Caption = 'Company Name', comment = 'ITA="Nome Operatore"';
+            Editable = false;
+        }
+
     }
     keys
     {
@@ -81,15 +124,13 @@ table 50100 "Scheda SIM"
     var
         ErrorMeassage: Label 'The Due Date cannot be  before the Activation Date.', comment = 'ITA="La Data di scadenza non può essere precedente alla Data di Attivazione"';
     begin
-        if Rec."Due Date" < Rec."Activation Date" then begin
-            Error(ErrorMeassage);
-        end;
+
     end;
 
     trigger OnDelete()
     var
         DelateError: Label 'The SIM card record cannot be delated', comment = 'ITA="Il record della scheda SIM non può essere eliminato"';
-        ConfirmMessage: Label 'Are yuou sure to delate this SIM card record?', comment = 'ITA="Cancellazione annullata';
+        ConfirmMessage: Label 'Are yuou sure to delate this SIM card record?', comment = 'ITA="Annulare?';
     begin
         if not Confirm(ConfirmMessage, False) then
             Error(DelateError) else

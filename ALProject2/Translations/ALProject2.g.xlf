@@ -3,6 +3,36 @@
   <file datatype="xml" source-language="en-US" target-language="en-US" original="ALProject2">
     <body>
       <group id="body">
+        <trans-unit id="Table 1796639941 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone Company</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Gestore Telefonico"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Phone Company - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1796639941 - Field 892260937 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Entry Number</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Nr. Movimento"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Phone Company - Field Entry Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1796639941 - Field 3466750681 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Exspired SIM Card</source>
+          <note from="Developer" annotates="general" priority="2">ITA="SIM Card Scadute"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Phone Company - Field Exspired SIM Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1796639941 - Field 2961552353 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Name</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Nome operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Phone Company - Field Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1796639941 - Field 1878130204 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Type</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Tipo Operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Phone Company - Field Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 1796639941 - Field 1701834446 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>User Nubers</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Numero Utenze"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Phone Company - Field Users Numbers - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 45370033 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Sim Card</source>
           <note from="Developer" annotates="general" priority="2">ITA="Scheda Telefonica"</note>
@@ -20,7 +50,7 @@
         </trans-unit>
         <trans-unit id="Table 45370033 - Method 3152277940 - NamedType 973351683" size-unit="char" translate="yes" xml:space="preserve">
           <source>Are yuou sure to delate this SIM card record?</source>
-          <note from="Developer" annotates="general" priority="2">ITA="Cancellazione annullata</note>
+          <note from="Developer" annotates="general" priority="2">ITA="Annulare?</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Method OnDelete - NamedType ConfirmMessage</note>
         </trans-unit>
         <trans-unit id="Table 45370033 - Method 1262666395 - NamedType 4225090550" size-unit="char" translate="yes" xml:space="preserve">
@@ -38,6 +68,16 @@
           <note from="Developer" annotates="general" priority="2">ITA="Data Attivazione"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Activation Date - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 45370033 - Field 1681926502 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company ID</source>
+          <note from="Developer" annotates="general" priority="2">ITA="ID Operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Company ID - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Field 3997336476 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Company Name</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Nome Operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Company Name - Property Caption</note>
+        </trans-unit>
         <trans-unit id="Table 45370033 - Field 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>Customer Name</source>
           <note from="Developer" annotates="general" priority="2">ITA="Nome Cliente"</note>
@@ -52,6 +92,11 @@
           <source>Due Date</source>
           <note from="Developer" annotates="general" priority="2">ITA="Data Scadenza"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Table 45370033 - Field 4085727052 - Method 2126772001 - NamedType 4225090550" size-unit="char" translate="yes" xml:space="preserve">
+          <source>The Due Date cannot be  before the Activation Date.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="La Data di scadenza non può essere precedente alla Data di Attivazione"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Due Date - Method OnValidate - NamedType ErrorMeassage</note>
         </trans-unit>
         <trans-unit id="Table 45370033 - Field 1127401914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
           <source>ID Sim Card</source>
@@ -68,9 +113,159 @@
           <note from="Developer" annotates="general" priority="2">ITA="Tipo Scheda"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Sim Type - Property Caption</note>
         </trans-unit>
+        <trans-unit id="Table 45370033 - Field 3799385688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Telefon Number</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Numero di telefono"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Table Scheda SIM - Field Telefon Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 2530176329 - Control 892260937 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry Number field.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Nr. Movimento"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company Card - Control Entry Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2530176329 - Control 3466750681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Exspired SIM Card field.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="SIM Card Scadute"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company Card - Control Exspired SIM Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2530176329 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Nome"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company Card - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2530176329 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Type field.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Tipo Operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company Card - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 2530176329 - Control 1701834446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User Nubers field.</source>
+          <note from="Developer" annotates="general" priority="2">%ITA="Numero Utenze"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company Card - Control Users Numbers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1585640731 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Phone Company List</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Elenco Operatori Telefonici"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 1585640731 - Control 892260937 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Entry Number field.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Nr. Movimento"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company List - Control Entry Number - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1585640731 - Control 3466750681 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Exspired SIM Card field.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="SIM Card Scadute"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company List - Control Exspired SIM Card - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1585640731 - Control 2961552353 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Name field.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Nome Operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company List - Control Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1585640731 - Control 1878130204 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Type field.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Tipo Operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company List - Control Type - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1585640731 - Control 1701834446 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the User Nubers field.</source>
+          <note from="Developer" annotates="general" priority="2">%ITA="Numero Utenze"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company List - Control Users Numbers - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 1585640731 - Action 2377756123 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Open SIM List</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Apri lista SIM"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Phone Company List - Action Open SIM List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SIM Card</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Scheda Sim"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 3538494697 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activation Cost</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Costo Attivazione"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control Activation Cost - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 3420575740 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Activation Date</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Data Attivazione"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control Activation Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 1681926502 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Company ID field.</source>
+          <note from="Developer" annotates="general" priority="2">%ITA="ID Operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control Company ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 3997336476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Company Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%ITA="Nome Operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control Company Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 1171137197 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer Name</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Nome Cliente"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control Customer Name - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 4190130733 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Customer No.</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Numero Cliente"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control Customer No. - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 4085727052 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Due Date</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Data Scadenza"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control Due Date - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 1127401914 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>ID Sim Card</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Identificativo Sim Card"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control ID Sim Card - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 4192966370 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>isActive</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Attiva"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control isActive - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 4173393313 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Sim Type</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Tipo Scheda"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control Sim Type - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 294353637 - Control 3799385688 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Telefon Number</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Numero di telefono"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page Sim Card - Control Telefon Number - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3525991215 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>SIM List</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Elenco Schede SIM"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SIM List - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Page 3525991215 - Control 1681926502 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Company ID field.</source>
+          <note from="Developer" annotates="general" priority="2">%ITA="ID Operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SIM List - Control Company ID - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="Page 3525991215 - Control 3997336476 - Property 1295455071" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Specifies the value of the Company Name field.</source>
+          <note from="Developer" annotates="general" priority="2">%ITA="Nome Operatore"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Page SIM List - Control Company Name - Property ToolTip</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3086352627 - Action 3411421024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 523354100">
+          <source>Show SIM Card</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Schede Telefoniche"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer Card Ext - Action shoSIMCards - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="PageExtension 3744062577 - Action 3411421024 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Page 2901867346">
+          <source>Show SIM Card</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Schede Telefoniche"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">PageExtension Customer List Ext - Action shoSIMCards - Property Caption</note>
+        </trans-unit>
         <trans-unit id="TableExtension 561312059 - Field 2873579140 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve" al-object-target="Table 1994964448">
           <source>Main SIM Card</source>
-          <note from="Developer" annotates="general" priority="2">ITA = "Scheda SIM Principale"</note>
+          <note from="Developer" annotates="general" priority="2">ITA="Scheda SIM Principale"</note>
           <note from="Xliff Generator" annotates="general" priority="3">TableExtension Customer Exstention - Field Main SIM Card - Property Caption</note>
         </trans-unit>
         <trans-unit id="Enum 4173393313 - EnumValue 1890244606 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
@@ -87,6 +282,16 @@
           <source>Normal</source>
           <note from="Developer" annotates="general" priority="2">ITA="Normale"</note>
           <note from="Xliff Generator" annotates="general" priority="3">Enum Sim Type - EnumValue Normal - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1878130204 - EnumValue 2299169261 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Traditional</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Tradizionale"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Type - EnumValue Traditional - Property Caption</note>
+        </trans-unit>
+        <trans-unit id="Enum 1878130204 - EnumValue 672025379 - Property 2879900210" size-unit="char" translate="yes" xml:space="preserve">
+          <source>Virtual</source>
+          <note from="Developer" annotates="general" priority="2">ITA="Virtuale"</note>
+          <note from="Xliff Generator" annotates="general" priority="3">Enum Type - EnumValue Virtual - Property Caption</note>
         </trans-unit>
       </group>
     </body>
